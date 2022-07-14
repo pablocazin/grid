@@ -1,0 +1,19 @@
+@import './subStyle/Cell';
+@import './subStyle/Grid';
+@import './subStyle/Car';
+@import './subStyle/InstructionBox';
+@import './subStyle/CoursePlayersList';
+@import './subStyle/ActionButtons';
+
+#course-main-container {
+  #course-container {
+
+    #instructions-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      margin-top: 20px;
+    }
+  }
+}

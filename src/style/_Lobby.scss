@@ -1,0 +1,16 @@
+@import './subStyle/LobbyPlayersList';
+@import './subStyle/Rules';
+
+h1 > span {
+    text-transform: capitalize;
+    color: $color-10;
+}
+#lobby-main-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    border: 4px rgba(29,29,27,.15) solid;
+    box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.046), 0px 3px 0px 0px rgba(255, 255, 255, 0.046);
+    border-radius: 12px;
+}

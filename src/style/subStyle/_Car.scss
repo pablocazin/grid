@@ -1,0 +1,17 @@
+.car {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+
+.up {
+    transform: rotate(90deg);
+}
+
+.right {
+    transform: rotate(180deg);
+}
+
+.down {
+    transform: rotate(270deg)
+}

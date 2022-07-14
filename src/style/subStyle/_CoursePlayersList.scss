@@ -1,0 +1,21 @@
+#course-playersList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+
+    .player-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 50px;
+        }
+    }
+}

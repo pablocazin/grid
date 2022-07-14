@@ -1,0 +1,19 @@
+.instruction-containers {
+
+    display: flex;
+    gap: 20px;
+
+    .instruction-box {
+        user-select: none;
+        width: 50px;
+        height: 50px;
+        background: beige;
+        border-radius: 5px;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

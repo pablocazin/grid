@@ -1,0 +1,21 @@
+#lobby-players-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    li {
+        width: 300px;
+        height: 80px;
+        background: #556e8f49;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,14 @@
+#course-container {
+    display: flex;
+    flex-direction: column;
+
+    #grid {
+        display: grid;
+        width: max-content;
+        grid-template-columns: repeat(16, 1fr);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+}
+

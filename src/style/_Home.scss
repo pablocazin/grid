@@ -1,0 +1,19 @@
+#home-action-buttons {
+    input {
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        font-size: 20px;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}

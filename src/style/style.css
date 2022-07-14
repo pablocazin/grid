@@ -1,0 +1,279 @@
+.case {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.case .texture {
+  background-size: cover;
+  width: 100%;
+}
+
+.bottom-right img {
+  border-bottom-right-radius: 10px;
+}
+
+.bottom-left img {
+  border-bottom-left-radius: 10px;
+}
+
+.top-right img {
+  border-top-right-radius: 10px;
+}
+
+.top-left img {
+  border-top-left-radius: 10px;
+}
+
+.bottom-left, .bottom-right, .top-left, .top-right {
+  background-color: #3f3f41;
+}
+
+#course-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#course-container #grid {
+  display: -ms-grid;
+  display: grid;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -ms-grid-columns: (1fr)[16];
+      grid-template-columns: repeat(16, 1fr);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.car {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+}
+
+.up {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.right {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.down {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.instruction-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.instruction-containers .instruction-box {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 50px;
+  height: 50px;
+  background: beige;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#course-playersList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+#course-playersList .player-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#course-playersList .player-box img {
+  width: 50px;
+}
+
+#action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+#action-buttons button {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+}
+
+#course-main-container #course-container #instructions-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+#home-action-buttons input {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+}
+
+#home-action-buttons input:focus {
+  outline: none;
+}
+
+#home-action-buttons button {
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+#lobby-players-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+#lobby-players-list li {
+  width: 300px;
+  height: 80px;
+  background: #556e8f49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 22px;
+}
+
+#rules-container {
+  width: 350px;
+  text-align: justify;
+}
+
+h2, h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1 > span {
+  text-transform: capitalize;
+  color: #F6D8AE;
+}
+
+#lobby-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 30px;
+  border: 4px rgba(29, 29, 27, 0.15) solid;
+  -webkit-box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.046), 0px 3px 0px 0px rgba(255, 255, 255, 0.046);
+          box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.046), 0px 3px 0px 0px rgba(255, 255, 255, 0.046);
+  border-radius: 12px;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  min-height: 120vh;
+  background-color: #2e4057;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.case {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .texture {
+        background-size: cover;
+        width: 100%;
+    }
+}
+
+.bottom-right {
+    img {
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.bottom-left {
+    img {
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.top-right {
+    img {
+        border-top-right-radius: 10px;
+    }
+}
+
+.top-left {
+    img {
+        border-top-left-radius: 10px;
+    }
+}
+
+.bottom-left, .bottom-right, .top-left, .top-right {
+    background-color: rgb(63, 63, 65);
+}

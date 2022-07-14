@@ -1,0 +1,20 @@
+$color-60: #2e4057;
+$color-30: #083D77;
+$color-10: #F6D8AE;
+
+@import './App';
+@import './Course';
+@import './Home';
+@import './Join';
+@import './Lobby';
+@import './Undefined';
+
+#root {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 120vh;
+    background-color: $color-60;
+}
+
